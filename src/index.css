@@ -1,0 +1,27 @@
+
+
+*:focus {
+    outline: none;
+}
+
+.onner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.converter-size img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.converter-size {
+    margin: 30px
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none; 
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+
+
+.group {
+    width: 200px;
+    display: grid;
+    grid-template-columns: 120px 80px;
+    border-bottom: 2px solid rgb(116, 116, 116);
+}
+
+input, select {
+    background: none;
+    color: black; 
+    font-weight: 500;
+    border: none;
+}
+
+
+.group:focus-within {
+    border-bottom: 2px solid green;
+    transition: ease-out 0.5s;
+}
+
+input {
+    padding-left: 10px;
+}
+
+
+select {
+    padding: 15px;
+}
